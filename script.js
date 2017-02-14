@@ -1,18 +1,34 @@
 TinyTurtle.apply(window);
 
-function square(){
-forward(50);
+function square(length){
+forward(length);
 right(90);
-forward(50);
+forward(length);
 right(90);
-forward(50);
+forward(length);
 right(90);
-forward(50);
+forward(length);
 right(90);
-forward(50);
+forward(length);
 }
 
+
+function triangle(length) {
+    
+    // go forward 50 pixels
+    right(30);
+    forward(length);
+    right(120);
+    forward(length);
+}
+
+
+
+
+
 // Type your function call below
+square(40);
+triangle(40);
 
 
-stamp();
+//stamp();
